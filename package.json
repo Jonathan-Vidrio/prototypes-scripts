@@ -1,0 +1,23 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:post": "ts-node script/response-time/post.script.ts",
+    "start:get": "ts-node script/response-time/get.script.ts",
+    "start:patch": "ts-node script/response-time/patch.script.ts",
+    "start:delete": "ts-node script/response-time/delete.script.ts",
+    "start:throughput": "artillery run script/throughput/config.yaml",
+    "generate:books": "ts-node script/generate-books.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.6",
+    "axios": "^1.6.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}

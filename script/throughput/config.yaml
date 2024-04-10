@@ -1,0 +1,22 @@
+config:
+  target: 'http://localhost:3000'
+  phases:
+    - duration: 300
+      arrivalRate: 100
+      name: "Throughput test"
+scenarios:
+  - flow:
+      - loop:
+          - get:
+              url: "/book/1"
+          - get:
+              url: "/author/1"
+          - get:
+              url: "/category/1"
+          - get:
+              url: "/editorial/1"
+          - get:
+              url: "/language/1"
+          - get:
+              url: "/status/1"
+        count: 10
