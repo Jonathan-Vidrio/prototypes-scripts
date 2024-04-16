@@ -56,4 +56,9 @@ const apiEndpoints = {
     books: 'http://localhost:3000/book/',
 };
 
-insertData(apiEndpoints.books, filePaths.books);
+insertData(apiEndpoints.statuses, filePaths.statuses).
+    then(() => insertData(apiEndpoints.languages, filePaths.languages)).
+    then(() => insertData(apiEndpoints.editorials, filePaths.editorials)).
+    then(() => insertData(apiEndpoints.categories, filePaths.categories)).
+    then(() => insertData(apiEndpoints.authors, filePaths.authors)).
+    then(() => insertData(apiEndpoints.books, filePaths.books));

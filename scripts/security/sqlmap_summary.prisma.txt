@@ -1,0 +1,329 @@
+Testing POST for Status
+[11:52:02] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[11:52:02] [WARNING] heuristic (basic) test shows that POST parameter 'Name' might not be injectable
+[11:52:02] [WARNING] reflective value(s) found and filtering out
+[11:52:07] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[11:52:07] [WARNING] false positive or unexploitable injection point detected
+[11:52:07] [WARNING] POST parameter 'Name' does not seem to be injectable
+[11:52:07] [WARNING] POST parameter 'Description' does not appear to be dynamic
+[11:52:07] [WARNING] heuristic (basic) test shows that POST parameter 'Description' might not be injectable
+[11:52:48] [WARNING] POST parameter 'Description' does not seem to be injectable
+[11:52:48] [WARNING] parameter 'User-Agent' does not appear to be dynamic
+[11:52:48] [WARNING] heuristic (basic) test shows that parameter 'User-Agent' might not be injectable
+[11:53:33] [WARNING] parameter 'User-Agent' does not seem to be injectable
+[11:53:33] [WARNING] parameter 'Referer' does not appear to be dynamic
+[11:53:33] [WARNING] heuristic (basic) test shows that parameter 'Referer' might not be injectable
+[11:54:22] [WARNING] parameter 'Referer' does not seem to be injectable
+[11:54:22] [WARNING] parameter 'Host' does not appear to be dynamic
+[11:54:22] [WARNING] heuristic (basic) test shows that parameter 'Host' might not be injectable
+[11:55:07] [WARNING] parameter 'Host' does not seem to be injectable
+[11:55:07] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[11:55:07] [WARNING] HTTP error codes detected during run:
+[11:55:07] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing PATCH for Status
+[11:55:08] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[11:55:09] [WARNING] heuristic (basic) test shows that PATCH parameter 'Name' might not be injectable
+[11:55:09] [WARNING] reflective value(s) found and filtering out
+[11:55:11] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[11:55:11] [WARNING] false positive or unexploitable injection point detected
+[11:55:11] [WARNING] PATCH parameter 'Name' does not seem to be injectable
+[11:55:11] [WARNING] PATCH parameter 'Description' does not appear to be dynamic
+[11:55:11] [WARNING] heuristic (basic) test shows that PATCH parameter 'Description' might not be injectable
+[11:55:14] [WARNING] PATCH parameter 'Description' does not seem to be injectable
+[11:55:14] [WARNING] PATCH parameter 'User-Agent' does not appear to be dynamic
+[11:55:14] [WARNING] heuristic (basic) test shows that PATCH parameter 'User-Agent' might not be injectable
+[11:55:18] [WARNING] PATCH parameter 'User-Agent' does not seem to be injectable
+[11:55:18] [WARNING] PATCH parameter 'Referer' does not appear to be dynamic
+[11:55:18] [WARNING] heuristic (basic) test shows that PATCH parameter 'Referer' might not be injectable
+[11:55:21] [WARNING] PATCH parameter 'Referer' does not seem to be injectable
+[11:55:21] [WARNING] PATCH parameter 'Host' does not appear to be dynamic
+[11:55:21] [WARNING] heuristic (basic) test shows that PATCH parameter 'Host' might not be injectable
+[11:55:25] [WARNING] PATCH parameter 'Host' does not seem to be injectable
+[11:55:25] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[11:55:25] [WARNING] HTTP error codes detected during run:
+[11:55:25] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing POST for Language
+[11:55:26] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[11:55:26] [WARNING] heuristic (basic) test shows that POST parameter 'Name' might not be injectable
+[11:55:26] [WARNING] reflective value(s) found and filtering out
+[11:55:28] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[11:55:28] [WARNING] false positive or unexploitable injection point detected
+[11:55:28] [WARNING] POST parameter 'Name' does not seem to be injectable
+[11:55:28] [WARNING] POST parameter 'Description' does not appear to be dynamic
+[11:55:28] [WARNING] heuristic (basic) test shows that POST parameter 'Description' might not be injectable
+[11:55:31] [WARNING] POST parameter 'Description' does not seem to be injectable
+[11:55:31] [WARNING] parameter 'User-Agent' does not appear to be dynamic
+[11:55:31] [WARNING] heuristic (basic) test shows that parameter 'User-Agent' might not be injectable
+[11:55:34] [WARNING] parameter 'User-Agent' does not seem to be injectable
+[11:55:34] [WARNING] parameter 'Referer' does not appear to be dynamic
+[11:55:34] [WARNING] heuristic (basic) test shows that parameter 'Referer' might not be injectable
+[11:55:37] [WARNING] parameter 'Referer' does not seem to be injectable
+[11:55:37] [WARNING] parameter 'Host' does not appear to be dynamic
+[11:55:37] [WARNING] heuristic (basic) test shows that parameter 'Host' might not be injectable
+[11:55:39] [WARNING] parameter 'Host' does not seem to be injectable
+[11:55:39] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[11:55:39] [WARNING] HTTP error codes detected during run:
+[11:55:39] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing PATCH for Language
+[11:55:40] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[11:55:41] [WARNING] heuristic (basic) test shows that PATCH parameter 'Name' might not be injectable
+[11:55:41] [WARNING] reflective value(s) found and filtering out
+[11:55:46] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[11:55:46] [WARNING] false positive or unexploitable injection point detected
+[11:55:46] [WARNING] PATCH parameter 'Name' does not seem to be injectable
+[11:55:46] [WARNING] PATCH parameter 'Description' does not appear to be dynamic
+[11:55:46] [WARNING] heuristic (basic) test shows that PATCH parameter 'Description' might not be injectable
+[11:55:49] [WARNING] PATCH parameter 'Description' does not seem to be injectable
+[11:55:49] [WARNING] PATCH parameter 'User-Agent' does not appear to be dynamic
+[11:55:49] [WARNING] heuristic (basic) test shows that PATCH parameter 'User-Agent' might not be injectable
+[11:55:53] [WARNING] PATCH parameter 'User-Agent' does not seem to be injectable
+[11:55:53] [WARNING] PATCH parameter 'Referer' does not appear to be dynamic
+[11:55:53] [WARNING] heuristic (basic) test shows that PATCH parameter 'Referer' might not be injectable
+[11:55:56] [WARNING] PATCH parameter 'Referer' does not seem to be injectable
+[11:55:56] [WARNING] PATCH parameter 'Host' does not appear to be dynamic
+[11:55:56] [WARNING] heuristic (basic) test shows that PATCH parameter 'Host' might not be injectable
+[11:55:59] [WARNING] PATCH parameter 'Host' does not seem to be injectable
+[11:55:59] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[11:55:59] [WARNING] HTTP error codes detected during run:
+[11:55:59] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing POST for Editorial
+[11:56:00] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[11:56:01] [WARNING] POST parameter 'Name' does not appear to be dynamic
+[11:56:01] [WARNING] heuristic (basic) test shows that POST parameter 'Name' might not be injectable
+[11:56:45] [WARNING] POST parameter 'Name' does not seem to be injectable
+[11:56:45] [WARNING] POST parameter 'Address' does not appear to be dynamic
+[11:56:45] [WARNING] heuristic (basic) test shows that POST parameter 'Address' might not be injectable
+[11:57:29] [WARNING] POST parameter 'Address' does not seem to be injectable
+[11:57:29] [WARNING] POST parameter 'Phone' does not appear to be dynamic
+[11:57:29] [WARNING] heuristic (basic) test shows that POST parameter 'Phone' might not be injectable
+[11:58:14] [WARNING] POST parameter 'Phone' does not seem to be injectable
+[11:58:14] [WARNING] POST parameter 'Email' does not appear to be dynamic
+[11:58:14] [WARNING] heuristic (basic) test shows that POST parameter 'Email' might not be injectable
+[11:58:57] [WARNING] POST parameter 'Email' does not seem to be injectable
+[11:58:57] [WARNING] POST parameter 'Website' does not appear to be dynamic
+[11:58:57] [WARNING] heuristic (basic) test shows that POST parameter 'Website' might not be injectable
+[11:59:41] [WARNING] POST parameter 'Website' does not seem to be injectable
+[11:59:41] [WARNING] parameter 'User-Agent' does not appear to be dynamic
+[11:59:41] [WARNING] heuristic (basic) test shows that parameter 'User-Agent' might not be injectable
+[12:00:27] [WARNING] parameter 'User-Agent' does not seem to be injectable
+[12:00:27] [WARNING] parameter 'Referer' does not appear to be dynamic
+[12:00:27] [WARNING] heuristic (basic) test shows that parameter 'Referer' might not be injectable
+[12:01:14] [WARNING] parameter 'Referer' does not seem to be injectable
+[12:01:14] [WARNING] parameter 'Host' does not appear to be dynamic
+[12:01:14] [WARNING] heuristic (basic) test shows that parameter 'Host' might not be injectable
+[12:02:01] [WARNING] parameter 'Host' does not seem to be injectable
+[12:02:01] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:02:01] [WARNING] HTTP error codes detected during run:
+[12:02:01] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing PATCH for Editorial
+[12:02:01] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[12:02:02] [WARNING] PATCH parameter 'Name' does not appear to be dynamic
+[12:02:02] [WARNING] heuristic (basic) test shows that PATCH parameter 'Name' might not be injectable
+[12:02:49] [WARNING] PATCH parameter 'Name' does not seem to be injectable
+[12:02:49] [WARNING] PATCH parameter 'Address' does not appear to be dynamic
+[12:02:49] [WARNING] heuristic (basic) test shows that PATCH parameter 'Address' might not be injectable
+[12:03:40] [WARNING] PATCH parameter 'Address' does not seem to be injectable
+[12:03:40] [WARNING] PATCH parameter 'Phone' does not appear to be dynamic
+[12:03:40] [WARNING] heuristic (basic) test shows that PATCH parameter 'Phone' might not be injectable
+[12:04:26] [WARNING] PATCH parameter 'Phone' does not seem to be injectable
+[12:04:26] [WARNING] PATCH parameter 'Email' does not appear to be dynamic
+[12:04:26] [WARNING] heuristic (basic) test shows that PATCH parameter 'Email' might not be injectable
+[12:05:13] [WARNING] PATCH parameter 'Email' does not seem to be injectable
+[12:05:13] [WARNING] PATCH parameter 'Website' does not appear to be dynamic
+[12:05:13] [WARNING] heuristic (basic) test shows that PATCH parameter 'Website' might not be injectable
+[12:05:59] [WARNING] PATCH parameter 'Website' does not seem to be injectable
+[12:05:59] [WARNING] PATCH parameter 'User-Agent' does not appear to be dynamic
+[12:05:59] [WARNING] heuristic (basic) test shows that PATCH parameter 'User-Agent' might not be injectable
+[12:06:47] [WARNING] PATCH parameter 'User-Agent' does not seem to be injectable
+[12:06:47] [WARNING] PATCH parameter 'Referer' does not appear to be dynamic
+[12:06:47] [WARNING] heuristic (basic) test shows that PATCH parameter 'Referer' might not be injectable
+[12:07:35] [WARNING] PATCH parameter 'Referer' does not seem to be injectable
+[12:07:35] [WARNING] PATCH parameter 'Host' does not appear to be dynamic
+[12:07:35] [WARNING] heuristic (basic) test shows that PATCH parameter 'Host' might not be injectable
+[12:08:24] [WARNING] PATCH parameter 'Host' does not seem to be injectable
+[12:08:24] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:08:24] [WARNING] HTTP error codes detected during run:
+[12:08:24] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing PATCH for Category
+[12:08:25] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+[12:08:25] [WARNING] heuristic (basic) test shows that PATCH parameter 'Name' might not be injectable
+[12:08:25] [WARNING] reflective value(s) found and filtering out
+[12:09:28] [WARNING] PATCH parameter 'Name' does not seem to be injectable
+[12:09:28] [WARNING] heuristic (basic) test shows that PATCH parameter 'Description' might not be injectable
+[12:09:40] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[12:09:40] [WARNING] false positive or unexploitable injection point detected
+[12:09:40] [WARNING] PATCH parameter 'Description' does not seem to be injectable
+[12:09:40] [WARNING] PATCH parameter 'User-Agent' does not appear to be dynamic
+[12:09:40] [WARNING] heuristic (basic) test shows that PATCH parameter 'User-Agent' might not be injectable
+[12:09:47] [WARNING] PATCH parameter 'User-Agent' does not seem to be injectable
+[12:09:47] [WARNING] PATCH parameter 'Referer' does not appear to be dynamic
+[12:09:47] [WARNING] heuristic (basic) test shows that PATCH parameter 'Referer' might not be injectable
+[12:09:53] [WARNING] PATCH parameter 'Referer' does not seem to be injectable
+[12:09:53] [WARNING] PATCH parameter 'Host' does not appear to be dynamic
+[12:09:53] [WARNING] heuristic (basic) test shows that PATCH parameter 'Host' might not be injectable
+[12:10:00] [WARNING] PATCH parameter 'Host' does not seem to be injectable
+[12:10:00] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:10:00] [WARNING] HTTP error codes detected during run:
+[12:10:00] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing POST for Author
+[12:10:01] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[12:10:01] [WARNING] POST parameter 'FirstName' does not appear to be dynamic
+[12:10:01] [WARNING] heuristic (basic) test shows that POST parameter 'FirstName' might not be injectable
+[12:10:46] [WARNING] POST parameter 'FirstName' does not seem to be injectable
+[12:10:46] [WARNING] POST parameter 'LastName' does not appear to be dynamic
+[12:10:46] [WARNING] heuristic (basic) test shows that POST parameter 'LastName' might not be injectable
+[12:11:30] [WARNING] POST parameter 'LastName' does not seem to be injectable
+[12:11:30] [WARNING] heuristic (basic) test shows that POST parameter 'Pseudonym' might not be injectable
+[12:11:30] [WARNING] reflective value(s) found and filtering out
+[12:11:32] [WARNING] in OR boolean-based injection cases, please consider usage of switch '--drop-set-cookie' if you experience any problems during data retrieval
+[12:11:32] [WARNING] false positive or unexploitable injection point detected
+[12:11:32] [WARNING] POST parameter 'Pseudonym' does not seem to be injectable
+[12:11:32] [WARNING] POST parameter 'BirthDate' does not appear to be dynamic
+[12:11:32] [WARNING] heuristic (basic) test shows that POST parameter 'BirthDate' might not be injectable
+[12:11:34] [WARNING] POST parameter 'BirthDate' does not seem to be injectable
+[12:11:34] [WARNING] POST parameter 'Nationality' does not appear to be dynamic
+[12:11:34] [WARNING] heuristic (basic) test shows that POST parameter 'Nationality' might not be injectable
+[12:11:37] [WARNING] POST parameter 'Nationality' does not seem to be injectable
+[12:11:37] [WARNING] parameter 'User-Agent' does not appear to be dynamic
+[12:11:37] [WARNING] heuristic (basic) test shows that parameter 'User-Agent' might not be injectable
+[12:11:39] [WARNING] parameter 'User-Agent' does not seem to be injectable
+[12:11:40] [WARNING] parameter 'Referer' does not appear to be dynamic
+[12:11:40] [WARNING] heuristic (basic) test shows that parameter 'Referer' might not be injectable
+[12:11:42] [WARNING] parameter 'Referer' does not seem to be injectable
+[12:11:42] [WARNING] parameter 'Host' does not appear to be dynamic
+[12:11:42] [WARNING] heuristic (basic) test shows that parameter 'Host' might not be injectable
+[12:11:45] [WARNING] parameter 'Host' does not seem to be injectable
+[12:11:45] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:11:45] [WARNING] HTTP error codes detected during run:
+[12:11:45] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing PATCH for Author
+[12:11:46] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+[12:11:46] [WARNING] heuristic (basic) test shows that PATCH parameter 'FirstName' might not be injectable
+[12:11:46] [WARNING] reflective value(s) found and filtering out
+[12:11:48] [WARNING] false positive or unexploitable injection point detected
+[12:11:48] [WARNING] PATCH parameter 'FirstName' does not seem to be injectable
+[12:11:48] [WARNING] PATCH parameter 'LastName' does not appear to be dynamic
+[12:11:48] [WARNING] heuristic (basic) test shows that PATCH parameter 'LastName' might not be injectable
+[12:11:55] [WARNING] PATCH parameter 'LastName' does not seem to be injectable
+[12:11:55] [WARNING] PATCH parameter 'Pseudonym' does not appear to be dynamic
+[12:11:55] [WARNING] heuristic (basic) test shows that PATCH parameter 'Pseudonym' might not be injectable
+[12:12:01] [WARNING] false positive or unexploitable injection point detected
+[12:12:01] [WARNING] PATCH parameter 'Pseudonym' does not seem to be injectable
+[12:12:01] [WARNING] PATCH parameter 'BirthDate' does not appear to be dynamic
+[12:12:01] [WARNING] heuristic (basic) test shows that PATCH parameter 'BirthDate' might not be injectable
+[12:12:03] [WARNING] PATCH parameter 'BirthDate' does not seem to be injectable
+[12:12:03] [WARNING] heuristic (basic) test shows that PATCH parameter 'Nationality' might not be injectable
+[12:12:04] [WARNING] false positive or unexploitable injection point detected
+[12:12:04] [WARNING] PATCH parameter 'Nationality' does not seem to be injectable
+[12:12:04] [WARNING] PATCH parameter 'User-Agent' does not appear to be dynamic
+[12:12:04] [WARNING] heuristic (basic) test shows that PATCH parameter 'User-Agent' might not be injectable
+[12:12:10] [WARNING] PATCH parameter 'User-Agent' does not seem to be injectable
+[12:12:10] [WARNING] PATCH parameter 'Referer' does not appear to be dynamic
+[12:12:10] [WARNING] heuristic (basic) test shows that PATCH parameter 'Referer' might not be injectable
+[12:12:17] [WARNING] PATCH parameter 'Referer' does not seem to be injectable
+[12:12:17] [WARNING] PATCH parameter 'Host' does not appear to be dynamic
+[12:12:17] [WARNING] heuristic (basic) test shows that PATCH parameter 'Host' might not be injectable
+[12:12:23] [WARNING] PATCH parameter 'Host' does not seem to be injectable
+[12:12:23] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:12:23] [WARNING] HTTP error codes detected during run:
+[12:12:23] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing POST for Book
+[12:12:24] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[12:12:24] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[12:12:25] [WARNING] POST parameter 'ISBN' does not appear to be dynamic
+[12:12:25] [WARNING] heuristic (basic) test shows that POST parameter 'ISBN' might not be injectable
+[12:12:52] [WARNING] POST parameter 'ISBN' does not seem to be injectable
+[12:12:52] [WARNING] POST parameter 'Title' does not appear to be dynamic
+[12:12:52] [WARNING] heuristic (basic) test shows that POST parameter 'Title' might not be injectable
+[12:13:19] [WARNING] POST parameter 'Title' does not seem to be injectable
+[12:13:19] [WARNING] POST parameter 'Subtitle' does not appear to be dynamic
+[12:13:19] [WARNING] heuristic (basic) test shows that POST parameter 'Subtitle' might not be injectable
+[12:13:47] [WARNING] POST parameter 'Subtitle' does not seem to be injectable
+[12:13:47] [WARNING] POST parameter 'PublishDate' does not appear to be dynamic
+[12:13:47] [WARNING] heuristic (basic) test shows that POST parameter 'PublishDate' might not be injectable
+[12:14:17] [WARNING] POST parameter 'PublishDate' does not seem to be injectable
+[12:14:17] [WARNING] POST parameter 'Pages' does not appear to be dynamic
+[12:14:17] [WARNING] heuristic (basic) test shows that POST parameter 'Pages' might not be injectable
+[12:15:00] [WARNING] POST parameter 'Pages' does not seem to be injectable
+[12:15:00] [WARNING] POST parameter 'Description' does not appear to be dynamic
+[12:15:00] [WARNING] heuristic (basic) test shows that POST parameter 'Description' might not be injectable
+[12:15:43] [WARNING] POST parameter 'Description' does not seem to be injectable
+[12:15:43] [WARNING] POST parameter 'AuthorId' does not appear to be dynamic
+[12:15:43] [WARNING] heuristic (basic) test shows that POST parameter 'AuthorId' might not be injectable
+[12:16:27] [WARNING] POST parameter 'AuthorId' does not seem to be injectable
+[12:16:27] [WARNING] POST parameter 'EditorialId' does not appear to be dynamic
+[12:16:27] [WARNING] heuristic (basic) test shows that POST parameter 'EditorialId' might not be injectable
+[12:17:09] [WARNING] POST parameter 'EditorialId' does not seem to be injectable
+[12:17:09] [WARNING] POST parameter 'CategoryId' does not appear to be dynamic
+[12:17:09] [WARNING] heuristic (basic) test shows that POST parameter 'CategoryId' might not be injectable
+[12:17:46] [WARNING] POST parameter 'CategoryId' does not seem to be injectable
+[12:17:46] [WARNING] POST parameter 'LanguageId' does not appear to be dynamic
+[12:17:46] [WARNING] heuristic (basic) test shows that POST parameter 'LanguageId' might not be injectable
+[12:18:13] [WARNING] POST parameter 'LanguageId' does not seem to be injectable
+[12:18:13] [WARNING] parameter 'User-Agent' does not appear to be dynamic
+[12:18:13] [WARNING] heuristic (basic) test shows that parameter 'User-Agent' might not be injectable
+[12:18:38] [WARNING] parameter 'User-Agent' does not seem to be injectable
+[12:18:38] [WARNING] parameter 'Referer' does not appear to be dynamic
+[12:18:38] [WARNING] heuristic (basic) test shows that parameter 'Referer' might not be injectable
+[12:19:04] [WARNING] parameter 'Referer' does not seem to be injectable
+[12:19:04] [WARNING] parameter 'Host' does not appear to be dynamic
+[12:19:04] [WARNING] heuristic (basic) test shows that parameter 'Host' might not be injectable
+[12:19:28] [WARNING] parameter 'Host' does not seem to be injectable
+[12:19:28] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:19:28] [WARNING] HTTP error codes detected during run:
+[12:19:28] [WARNING] your sqlmap version is outdated
+==========================================================
+Testing PATCH for Book
+[12:19:29] [WARNING] the web server responded with an HTTP error code (500) which could interfere with the results of the tests
+[12:19:29] [WARNING] PATCH parameter 'ISBN' does not appear to be dynamic
+[12:19:29] [WARNING] heuristic (basic) test shows that PATCH parameter 'ISBN' might not be injectable
+[12:19:56] [WARNING] PATCH parameter 'ISBN' does not seem to be injectable
+[12:19:56] [WARNING] PATCH parameter 'Title' does not appear to be dynamic
+[12:19:56] [WARNING] heuristic (basic) test shows that PATCH parameter 'Title' might not be injectable
+[12:20:23] [WARNING] PATCH parameter 'Title' does not seem to be injectable
+[12:20:23] [WARNING] PATCH parameter 'Subtitle' does not appear to be dynamic
+[12:20:23] [WARNING] heuristic (basic) test shows that PATCH parameter 'Subtitle' might not be injectable
+[12:20:50] [WARNING] PATCH parameter 'Subtitle' does not seem to be injectable
+[12:20:50] [WARNING] PATCH parameter 'PublishDate' does not appear to be dynamic
+[12:20:50] [WARNING] heuristic (basic) test shows that PATCH parameter 'PublishDate' might not be injectable
+[12:21:12] [WARNING] PATCH parameter 'PublishDate' does not seem to be injectable
+[12:21:12] [WARNING] PATCH parameter 'Pages' does not appear to be dynamic
+[12:21:12] [WARNING] heuristic (basic) test shows that PATCH parameter 'Pages' might not be injectable
+[12:21:39] [WARNING] PATCH parameter 'Pages' does not seem to be injectable
+[12:21:39] [WARNING] PATCH parameter 'Description' does not appear to be dynamic
+[12:21:39] [WARNING] heuristic (basic) test shows that PATCH parameter 'Description' might not be injectable
+[12:22:06] [WARNING] PATCH parameter 'Description' does not seem to be injectable
+[12:22:06] [WARNING] PATCH parameter 'AuthorId' does not appear to be dynamic
+[12:22:06] [WARNING] heuristic (basic) test shows that PATCH parameter 'AuthorId' might not be injectable
+[12:22:34] [WARNING] PATCH parameter 'AuthorId' does not seem to be injectable
+[12:22:34] [WARNING] PATCH parameter 'EditorialId' does not appear to be dynamic
+[12:22:34] [WARNING] heuristic (basic) test shows that PATCH parameter 'EditorialId' might not be injectable
+[12:23:02] [WARNING] PATCH parameter 'EditorialId' does not seem to be injectable
+[12:23:02] [WARNING] PATCH parameter 'CategoryId' does not appear to be dynamic
+[12:23:02] [WARNING] heuristic (basic) test shows that PATCH parameter 'CategoryId' might not be injectable
+[12:23:30] [WARNING] PATCH parameter 'CategoryId' does not seem to be injectable
+[12:23:30] [WARNING] PATCH parameter 'LanguageId' does not appear to be dynamic
+[12:23:30] [WARNING] heuristic (basic) test shows that PATCH parameter 'LanguageId' might not be injectable
+[12:23:57] [WARNING] PATCH parameter 'LanguageId' does not seem to be injectable
+[12:23:57] [WARNING] PATCH parameter 'User-Agent' does not appear to be dynamic
+[12:23:57] [WARNING] heuristic (basic) test shows that PATCH parameter 'User-Agent' might not be injectable
+[12:24:23] [WARNING] PATCH parameter 'User-Agent' does not seem to be injectable
+[12:24:23] [WARNING] PATCH parameter 'Referer' does not appear to be dynamic
+[12:24:23] [WARNING] heuristic (basic) test shows that PATCH parameter 'Referer' might not be injectable
+[12:24:49] [WARNING] PATCH parameter 'Referer' does not seem to be injectable
+[12:24:49] [WARNING] PATCH parameter 'Host' does not appear to be dynamic
+[12:24:49] [WARNING] heuristic (basic) test shows that PATCH parameter 'Host' might not be injectable
+[12:25:15] [WARNING] PATCH parameter 'Host' does not seem to be injectable
+[12:25:15] [CRITICAL] all tested parameters do not appear to be injectable. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment') and/or switch '--random-agent'
+[12:25:15] [WARNING] HTTP error codes detected during run:
+[12:25:15] [WARNING] your sqlmap version is outdated
+==========================================================

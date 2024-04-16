@@ -21,7 +21,7 @@ interface Book {
     LanguageId: number;
 }
 
-function generateBooks(): Book[] {
+function generateJson(): Book[] {
     const existingISBNs = new Set<string>();
     const books: Book[] = [];
 
@@ -48,5 +48,5 @@ function generateBooks(): Book[] {
     return books;
 }
 
-const books = generateBooks();
+const books = generateJson();
 fs.writeFileSync('books.json', JSON.stringify(books, null, 4));

@@ -119988,15 +119988,15 @@
         "LanguageId": 11
     },
     {
-        "ISBN": "997-8570-12601-8843-8",
-        "Title": "Generated Book Title 9999",
-        "Subtitle": "Generated Book Subtitle 9999",
+        "ISBN": "983-1542-26709-3367-9",
+        "Title": "Generated Book Title 2",
+        "Subtitle": "Generated Book Subtitle 2",
         "PublishDate": "2024-01-01",
-        "Pages": 252,
+        "Pages": 464,
         "Description": "Generated Description",
-        "AuthorId": 3,
-        "EditorialId": 8,
-        "CategoryId": 8,
-        "LanguageId": 10
+        "AuthorId": 98,
+        "EditorialId": 1,
+        "CategoryId": 13,
+        "LanguageId": 15
     }
 ]

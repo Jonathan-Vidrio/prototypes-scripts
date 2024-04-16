@@ -4,19 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:post": "ts-node script/response-time/post.script.ts",
-    "start:get": "ts-node script/response-time/get.script.ts",
-    "start:patch": "ts-node script/response-time/patch.script.ts",
-    "start:delete": "ts-node script/response-time/delete.script.ts",
-    "start:throughput": "artillery run script/throughput/config.yaml",
-    "generate:books": "ts-node script/generate-books.ts"
+    "response:post:test": "ts-node scripts/response/post.script.ts",
+    "response:get:test": "ts-node scripts/response/get.script.ts",
+    "response:patch:test": "ts-node scripts/response/patch.script.ts",
+    "response:delete:test": "ts-node scripts/response/delete.script.ts",
+    "performance:post:test": "ts-node scripts/performance/post.script.ts",
+    "performance:get:test": "ts-node scripts/performance/get.script.ts",
+    "performance:patch:test": "ts-node scripts/performance/patch.script.ts",
+    "performance:delete:test": "ts-node scripts/performance/delete.script.ts",
+    "throughput:test": "artillery run scripts/throughput/config.yaml",
+    "generate:books": "ts-node scripts/others/generate-json.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.12.6",
+    "@types/pidusage": "^2.0.5",
     "axios": "^1.6.8",
+    "pidusage": "^3.0.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.4"
   }
